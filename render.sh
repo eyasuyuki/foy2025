@@ -16,4 +16,4 @@ ffmpeg -loop 1 -i slide_014.png -i 015_ずんだもん（ノーマル）_トロ�
 ffmpeg -loop 1 -i slide_015.png -i 016_ずんだもん（ノーマル）_誰のため？.wav  -r 30 -tune stillimage -fflags +genpts -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest slide_015.mp4
 ffmpeg -loop 1 -i slide_016.png -i 017_ずんだもん（ノーマル）_個人投資家\ のため.wav  -r 30 -tune stillimage -fflags +genpts -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest slide_016.mp4
 ffmpeg -loop 1 -i slide_017.png -i 018_ずんだもん（ノーマル）_チケットは\ お早めに.wav  -r 30 -tune stillimage -fflags +genpts -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest slide_017.mp4
-ffmpeg -loop 1 -i slide_018.png -i 019_ずんだもん（ノーマル）_購入はPeatix.wav  -r 30 -tune stillimage -fflags +genpts -c:v libx264 -pix_fmt yuv420p -c:a aac -shortest slide_018.mp4
+ffmpeg -loop 1 -i slide_018.png -i 019_ずんだもん（ノーマル）_購入はPeatix.wav -t 10 -r 30 -tune stillimage -fflags +genpts -c:v libx264 -pix_fmt yuv420p -c:a aac slide_018.mp4

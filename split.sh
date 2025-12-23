@@ -1,0 +1,1 @@
+magick -density 300 slide.pdf -scene 0 slide_%03d.png

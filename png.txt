@@ -1,4 +1,3 @@
-qrcode_202512172004.png
 slide_000.png
 slide_001.png
 slide_002.png
